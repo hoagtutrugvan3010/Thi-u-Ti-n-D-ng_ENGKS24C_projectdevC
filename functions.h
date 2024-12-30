@@ -1,4 +1,7 @@
 #include "datatypes.h"
 //nguyen mau ham
-void printHello();
-void printGoodbye();
+void printfFunction();
+void printfCategory();
+void addCategory();
+void fixCategory();
+void deleteCategory();

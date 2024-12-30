@@ -1,10 +1,12 @@
 #include <stdbool.h>
 
-struct List{
+typedef struct menu {
 	int id;
-	char name[20];
-	char category[20];
-	float price;
-	int quantity;
+	char nameCategory[50];
+} Category;
+Category categories[50]= {
+	{1,"Thuc pham"},
+	{2,"Do gia dung"},
+	{3,"Van phong pham"},
+	{4,"The dien thoai"},
 };
-
